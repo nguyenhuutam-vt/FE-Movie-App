@@ -1,0 +1,36 @@
+/* .featured{
+    height: 100%;
+    position: relative;
+    
+
+}
+.imgBlack{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.info{
+    width: 35%;
+    position: absolute;
+}
+ */
+ .imgblack {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ .info {
+    width: 35%;
+    position: absolute;
+    left: 50px;
+    bottom: 45%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* transform: translate(10px, -900px); */
+    margin-left: 100px;
+ }
+ .slick-dots{
+    display: none;
+ }

@@ -1,0 +1,10 @@
+.poster:hover{
+    margin-top: -40px;
+    transition:   margin-top 2s;
+}
+.slick-slide .slick-active .slick-current{
+    width: 120px;
+}
+.slick-slide{
+    width: 120px;
+}

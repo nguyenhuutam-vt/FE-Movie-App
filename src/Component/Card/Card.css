@@ -1,0 +1,30 @@
+.underline-text {
+  text-decoration: underline;
+}
+.filter_play {
+  position: absolute;
+  display: flex;
+  margin: auto;
+  inset: 0;
+}
+.posters {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  color: white;
+  text-decoration: overline underline; /* Viền trên đầu và dưới chân chữ */
+  text-decoration-color: #7b6844;
+  text-decoration-thickness: 4px; /* Độ dày của overline */
+  color: #fff;
+  font-size: 24px;
+  /* font-family: Berlin Sans FB; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 10px;
+  @media (max-width: 640px) {
+    font-size: 18px;
+  }
+}
